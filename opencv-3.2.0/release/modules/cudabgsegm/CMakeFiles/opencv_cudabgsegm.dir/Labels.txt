@@ -1,0 +1,33 @@
+# Target labels
+ Main
+ opencv_cudabgsegm
+ Module
+# Source files and their labels
+/home/user/Downloads/FindCUDA/opencv-3.2.0/modules/cudabgsegm/include/opencv2/cudabgsegm.hpp
+ Main
+ opencv_cudabgsegm
+ Module
+/home/user/Downloads/FindCUDA/opencv-3.2.0/modules/cudabgsegm/src/mog.cpp
+ Main
+ opencv_cudabgsegm
+ Module
+/home/user/Downloads/FindCUDA/opencv-3.2.0/modules/cudabgsegm/src/mog2.cpp
+ Main
+ opencv_cudabgsegm
+ Module
+/home/user/Downloads/FindCUDA/opencv-3.2.0/modules/cudabgsegm/src/precomp.hpp
+ Main
+ opencv_cudabgsegm
+ Module
+/home/user/Downloads/FindCUDA/opencv-3.2.0/modules/cudabgsegm/src/cuda/mog.cu
+ Main
+ opencv_cudabgsegm
+ Module
+/home/user/Downloads/FindCUDA/opencv-3.2.0/modules/cudabgsegm/src/cuda/mog2.cu
+ Main
+ opencv_cudabgsegm
+ Module
+/home/user/Downloads/FindCUDA/opencv-3.2.0/release/cvconfig.h
+/home/user/Downloads/FindCUDA/opencv-3.2.0/release/opencv2/opencv_modules.hpp
+/home/user/Downloads/FindCUDA/opencv-3.2.0/release/modules/cudabgsegm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_mog.cu.o
+/home/user/Downloads/FindCUDA/opencv-3.2.0/release/modules/cudabgsegm/CMakeFiles/cuda_compile.dir/src/cuda/cuda_compile_generated_mog2.cu.o

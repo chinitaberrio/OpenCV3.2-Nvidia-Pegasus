@@ -1,0 +1,93 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/user/Downloads/FindCUDA/opencv_contrib-3.2.0/modules/text/include/opencv2/text.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_text",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/user/Downloads/FindCUDA/opencv_contrib-3.2.0/modules/text/include/opencv2/text/erfilter.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_text",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/user/Downloads/FindCUDA/opencv_contrib-3.2.0/modules/text/include/opencv2/text/ocr.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_text",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/user/Downloads/FindCUDA/opencv_contrib-3.2.0/modules/text/src/erfilter.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_text",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/user/Downloads/FindCUDA/opencv_contrib-3.2.0/modules/text/src/ocr_beamsearch_decoder.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_text",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/user/Downloads/FindCUDA/opencv_contrib-3.2.0/modules/text/src/ocr_hmm_decoder.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_text",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/user/Downloads/FindCUDA/opencv_contrib-3.2.0/modules/text/src/ocr_tesseract.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_text",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/user/Downloads/FindCUDA/opencv_contrib-3.2.0/modules/text/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_text",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/user/Downloads/FindCUDA/opencv-3.2.0/release/cvconfig.h"
+		},
+		{
+			"file" : "/home/user/Downloads/FindCUDA/opencv-3.2.0/release/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_text",
+			"Module"
+		],
+		"name" : "opencv_text"
+	}
+}

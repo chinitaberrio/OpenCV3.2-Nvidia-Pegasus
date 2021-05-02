@@ -1,0 +1,390 @@
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c7369/fast && /usr/bin/make  -f CMakeFiles/cmTC_c7369.dir/build.make CMakeFiles/cmTC_c7369.dir/build
+make[1]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c7369.dir/src.cxx.o
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  -DNVMEDIA_NVSCI_ENABLE -DVIBRANTE -DVIBRANTE_V5L -isystem /include -isystem /targets/aarch64-linux/include  -O3 -DNDEBUG    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes -o CMakeFiles/cmTC_c7369.dir/src.cxx.o -c /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_c7369
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7369.dir/link.txt --verbose=1
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++    -O3 -DNDEBUG  -L/lib-target -Wl,-rpath,/lib-target   -rdynamic CMakeFiles/cmTC_c7369.dir/src.cxx.o  -o cmTC_c7369 
+make[1]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_84230/fast && /usr/bin/make  -f CMakeFiles/cmTC_84230.dir/build.make CMakeFiles/cmTC_84230.dir/build
+make[1]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_84230.dir/src.cxx.o
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  -DNVMEDIA_NVSCI_ENABLE -DVIBRANTE -DVIBRANTE_V5L -isystem /include -isystem /targets/aarch64-linux/include  -O3 -DNDEBUG    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes -o CMakeFiles/cmTC_84230.dir/src.cxx.o -c /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_84230
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84230.dir/link.txt --verbose=1
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++    -O3 -DNDEBUG  -L/lib-target -Wl,-rpath,/lib-target   -rdynamic CMakeFiles/cmTC_84230.dir/src.cxx.o  -o cmTC_84230 
+make[1]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b5b64/fast && /usr/bin/make  -f CMakeFiles/cmTC_b5b64.dir/build.make CMakeFiles/cmTC_b5b64.dir/build
+make[1]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5b64.dir/src.c.o
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc -DNVMEDIA_NVSCI_ENABLE -DVIBRANTE -DVIBRANTE_V5L -isystem /include -isystem /targets/aarch64-linux/include  -O3 -DNDEBUG    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_b5b64.dir/src.c.o   -c /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_b5b64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5b64.dir/link.txt --verbose=1
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -O3 -DNDEBUG  -L/lib-target -Wl,-rpath,/lib-target   -rdynamic CMakeFiles/cmTC_b5b64.dir/src.c.o  -o cmTC_b5b64 
+make[1]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9f285/fast && /usr/bin/make  -f CMakeFiles/cmTC_9f285.dir/build.make CMakeFiles/cmTC_9f285.dir/build
+make[1]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f285.dir/src.c.o
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc -DNVMEDIA_NVSCI_ENABLE -DVIBRANTE -DVIBRANTE_V5L -isystem /include -isystem /targets/aarch64-linux/include  -O3 -DNDEBUG    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_9f285.dir/src.c.o   -c /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_9f285
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f285.dir/link.txt --verbose=1
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -O3 -DNDEBUG  -L/lib-target -Wl,-rpath,/lib-target   -rdynamic CMakeFiles/cmTC_9f285.dir/src.c.o  -o cmTC_9f285 
+make[1]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer  -mfpu=neon'
+===== BUILD LOG =====
+Change Dir: /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d00bb/fast && /usr/bin/make  -f CMakeFiles/cmTC_d00bb.dir/build.make CMakeFiles/cmTC_d00bb.dir/build
+make[1]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d00bb.dir/src.cxx.o
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  -DNVMEDIA_NVSCI_ENABLE -DVIBRANTE -DVIBRANTE_V5L -isystem /include -isystem /targets/aarch64-linux/include  -O3 -DNDEBUG    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer  -mfpu=neon -o CMakeFiles/cmTC_d00bb.dir/src.cxx.o -c /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx
+aarch64-linux-gnu-g++: error: unrecognized command line option ‘-mfpu=neon’
+CMakeFiles/cmTC_d00bb.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_d00bb.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d00bb.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_d00bb/fast' failed
+make: *** [cmTC_d00bb/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer  -mfpu=neon'
+===== BUILD LOG =====
+Change Dir: /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_42e01/fast && /usr/bin/make  -f CMakeFiles/cmTC_42e01.dir/build.make CMakeFiles/cmTC_42e01.dir/build
+make[1]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42e01.dir/src.c.o
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc -DNVMEDIA_NVSCI_ENABLE -DVIBRANTE -DVIBRANTE_V5L -isystem /include -isystem /targets/aarch64-linux/include  -O3 -DNDEBUG    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer  -mfpu=neon -o CMakeFiles/cmTC_42e01.dir/src.c.o   -c /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c
+aarch64-linux-gnu-gcc: error: unrecognized command line option ‘-mfpu=neon’
+CMakeFiles/cmTC_42e01.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_42e01.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_42e01.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_42e01/fast' failed
+make: *** [cmTC_42e01/fast] Error 2
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3b181/fast && /usr/bin/make  -f CMakeFiles/cmTC_3b181.dir/build.make CMakeFiles/cmTC_3b181.dir/build
+make[1]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b181.dir/src.c.o
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc -DNVMEDIA_NVSCI_ENABLE -DVIBRANTE -DVIBRANTE_V5L -isystem /include -isystem /targets/aarch64-linux/include  -O3 -DNDEBUG    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_3b181.dir/src.c.o   -c /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognised command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_3b181
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b181.dir/link.txt --verbose=1
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -O3 -DNDEBUG  -L/lib-target -Wl,-rpath,/lib-target   -rdynamic CMakeFiles/cmTC_3b181.dir/src.c.o  -o cmTC_3b181 
+make[1]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining size of off64_t failed with the following output:
+Change Dir: /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98043/fast && /usr/bin/make  -f CMakeFiles/cmTC_98043.dir/build.make CMakeFiles/cmTC_98043.dir/build
+make[1]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98043.dir/OFF64_T.c.o
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc -DNVMEDIA_NVSCI_ENABLE -DVIBRANTE -DVIBRANTE_V5L -isystem /include -isystem /targets/aarch64-linux/include  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_98043.dir/OFF64_T.c.o   -c /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c
+/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: error: ‘off64_t’ undeclared here (not in a function); did you mean ‘off_t’?
+ #define SIZE (sizeof(off64_t))
+                      ^
+/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+cc1: warning: unrecognised command line option ‘-Wno-unnamed-type-template-args’
+CMakeFiles/cmTC_98043.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_98043.dir/OFF64_T.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_98043.dir/OFF64_T.c.o] Error 1
+make[1]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_98043/fast' failed
+make: *** [cmTC_98043/fast] Error 2
+
+
+/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c34ae/fast && /usr/bin/make  -f CMakeFiles/cmTC_c34ae.dir/build.make CMakeFiles/cmTC_c34ae.dir/build
+make[1]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c34ae.dir/CheckIncludeFile.c.o
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc -DNVMEDIA_NVSCI_ENABLE -DVIBRANTE -DVIBRANTE_V5L -isystem /include -isystem /targets/aarch64-linux/include  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_c34ae.dir/CheckIncludeFile.c.o   -c /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: io.h: No such file or directory
+ #include <io.h>
+          ^~~~~~
+compilation terminated.
+CMakeFiles/cmTC_c34ae.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_c34ae.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c34ae.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_c34ae/fast' failed
+make: *** [cmTC_c34ae/fast] Error 2
+
+
+
+Determining if the function jbg_newlen exists failed with the following output:
+Change Dir: /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_19d9b/fast && /usr/bin/make  -f CMakeFiles/cmTC_19d9b.dir/build.make CMakeFiles/cmTC_19d9b.dir/build
+make[1]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19d9b.dir/CheckFunctionExists.c.o
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc -DNVMEDIA_NVSCI_ENABLE -DVIBRANTE -DVIBRANTE_V5L -isystem /include -isystem /targets/aarch64-linux/include  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=jbg_newlen -O3 -DNDEBUG   -o CMakeFiles/cmTC_19d9b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_19d9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19d9b.dir/link.txt --verbose=1
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=jbg_newlen -O3 -DNDEBUG  -L/lib-target -Wl,-rpath,/lib-target   -rdynamic CMakeFiles/cmTC_19d9b.dir/CheckFunctionExists.c.o  -o cmTC_19d9b 
+CMakeFiles/cmTC_19d9b.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `jbg_newlen'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_19d9b.dir/build.make:106: recipe for target 'cmTC_19d9b' failed
+make[1]: *** [cmTC_19d9b] Error 1
+make[1]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_19d9b/fast' failed
+make: *** [cmTC_19d9b/fast] Error 2
+
+
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3cd25/fast && /usr/bin/make  -f CMakeFiles/cmTC_3cd25.dir/build.make CMakeFiles/cmTC_3cd25.dir/build
+make[1]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3cd25.dir/CheckIncludeFile.c.o
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc -DNVMEDIA_NVSCI_ENABLE -DVIBRANTE -DVIBRANTE_V5L -isystem /include -isystem /targets/aarch64-linux/include  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_3cd25.dir/CheckIncludeFile.c.o   -c /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_3cd25.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_3cd25.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_3cd25.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_3cd25/fast' failed
+make: *** [cmTC_3cd25/fast] Error 2
+
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_de710/fast && /usr/bin/make  -f CMakeFiles/cmTC_de710.dir/build.make CMakeFiles/cmTC_de710.dir/build
+make[1]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de710.dir/CheckIncludeFile.c.o
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc -DNVMEDIA_NVSCI_ENABLE -DVIBRANTE -DVIBRANTE_V5L -isystem /include -isystem /targets/aarch64-linux/include  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_de710.dir/CheckIncludeFile.c.o   -c /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_de710.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_de710.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_de710.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_de710/fast' failed
+make: *** [cmTC_de710/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test CXX_HAS_MFPU_NEON failed with the following output:
+Change Dir: /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9a7b0/fast && /usr/bin/make  -f CMakeFiles/cmTC_9a7b0.dir/build.make CMakeFiles/cmTC_9a7b0.dir/build
+make[1]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9a7b0.dir/src.cxx.o
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  -DNVMEDIA_NVSCI_ENABLE -DVIBRANTE -DVIBRANTE_V5L -isystem /include -isystem /targets/aarch64-linux/include  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -funwind-tables -fweb -fwrapv -frename-registers -fsched2-use-superblocks -fsched2-use-traces -fsched-stalled-insns-dep=100 -fsched-stalled-insns=2 -DCXX_HAS_MFPU_NEON -O3 -DNDEBUG -fPIE   -mfpu=neon -o CMakeFiles/cmTC_9a7b0.dir/src.cxx.o -c /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.cxx
+aarch64-linux-gnu-g++: error: unrecognized command line option '-mfpu=neon'
+CMakeFiles/cmTC_9a7b0.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_9a7b0.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_9a7b0.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_9a7b0/fast' failed
+make: *** [cmTC_9a7b0/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_HAS_MFPU_NEON failed with the following output:
+Change Dir: /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f80ac/fast && /usr/bin/make  -f CMakeFiles/cmTC_f80ac.dir/build.make CMakeFiles/cmTC_f80ac.dir/build
+make[1]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f80ac.dir/src.c.o
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc -DNVMEDIA_NVSCI_ENABLE -DVIBRANTE -DVIBRANTE_V5L -isystem /include -isystem /targets/aarch64-linux/include  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -funwind-tables -fweb -fwrapv -frename-registers -fsched2-use-superblocks -fsched2-use-traces -fsched-stalled-insns-dep=100 -fsched-stalled-insns=2 -DC_HAS_MFPU_NEON -O3 -DNDEBUG -fPIE   -mfpu=neon -o CMakeFiles/cmTC_f80ac.dir/src.c.o   -c /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/src.c
+aarch64-linux-gnu-gcc: error: unrecognized command line option '-mfpu=neon'
+CMakeFiles/cmTC_f80ac.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_f80ac.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f80ac.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_f80ac/fast' failed
+make: *** [cmTC_f80ac/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3affa/fast && make[1]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_3affa.dir/build.make CMakeFiles/cmTC_3affa.dir/build
+make[2]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3affa.dir/CheckIncludeFile.c.o
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc -DNVMEDIA_NVSCI_ENABLE -DVIBRANTE -DVIBRANTE_V5L -isystem /include -isystem /targets/aarch64-linux/include  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_3affa.dir/CheckIncludeFile.c.o   -c /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_3affa.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_3affa.dir/CheckIncludeFile.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_3affa.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_3affa/fast' failed
+make[1]: *** [cmTC_3affa/fast] Error 2
+make[1]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_738c7/fast && make[1]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_738c7.dir/build.make CMakeFiles/cmTC_738c7.dir/build
+make[2]: Entering directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_738c7.dir/CheckIncludeFile.c.o
+/home/user/nvidia/nvidia_sdk/DRIVE_OS_5.2.0_SDK_Linux_OS_DDPX/DRIVEOS/drive-t186ref-linux/../toolchains/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc -DNVMEDIA_NVSCI_ENABLE -DVIBRANTE -DVIBRANTE_V5L -isystem /include -isystem /targets/aarch64-linux/include  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_738c7.dir/CheckIncludeFile.c.o   -c /home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_738c7.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_738c7.dir/CheckIncludeFile.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_738c7.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_738c7/fast' failed
+make[1]: *** [cmTC_738c7/fast] Error 2
+make[1]: Leaving directory '/home/user/Downloads/FindCUDA/opencv-3.2.0/release/CMakeFiles/CMakeTmp'
+
+
+
